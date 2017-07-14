@@ -307,7 +307,7 @@ cat("
 			}
 		}	
 	}
-")
+",fill=TRUE)
 sink()
 
 ##### Yamaura et al 2016 model for jags
@@ -375,7 +375,7 @@ cat("
 			}
 		
 		}
-}")
+}",fill=TRUE)
 sink()
 
 # For Kalman estimates of the Yamaura model
@@ -430,7 +430,7 @@ cat("
 		
 		}
 	}
-")
+",fill=TRUE)
 sink()
 
 ########################################################################
